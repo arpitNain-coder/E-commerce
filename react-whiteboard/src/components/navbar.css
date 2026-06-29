@@ -1,0 +1,34 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.915);
+}
+
+nav div {
+    display: flex;
+    gap: 120px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgb(181, 202, 117);
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+nav h2 {
+    cursor: pointer;
+    font-weight: 900;
+    padding: 10px;
+    background-color: rgb(181, 202, 117);
+    border-radius: 8px;
+}
