@@ -3,7 +3,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 60px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.915);
+    border:2px solid black;
 }
 
 nav div {
@@ -12,6 +12,7 @@ nav div {
     padding: 10px;
     border-radius: 8px;
     background-color: rgb(181, 202, 117);
+    border:2px solid black;
 }
 
 nav a {
@@ -29,6 +30,8 @@ nav h2 {
     cursor: pointer;
     font-weight: 900;
     padding: 10px;
+    margin-left: 0px;
     background-color: rgb(181, 202, 117);
     border-radius: 8px;
+    border:2px solid black;
 }
