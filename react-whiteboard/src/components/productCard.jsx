@@ -1,15 +1,15 @@
 import "./productCard.css";
 
-function ProductCard() {
+function ProductCard(props) {
     return (
         <div className="productCard">
             <div className="img">
                 <img/>
             </div>
             <div className="info">
-                <h3>Product Name</h3>
-                <p>Rating : </p>
-                <p>Rs 3999</p>
+                <h3>{props.name}</h3>
+                <p>{props.rating}</p>
+                <p>{props.price}</p>
                 <button>Add To Cart</button>
             </div>
         </div>
