@@ -11,6 +11,8 @@
 
 .HeroLeft {
     flex: 1;
+    display: flex;
+    flex-direction: column;
     line-height: 80px;
     align-items: center;
     padding-left: 20px;
@@ -21,7 +23,7 @@
 }
 
 .HeroLeft h1 {
-    font-size: 30px;
+    font-size: 25px;
     line-height: 1.1;
     margin: 20px 0;
 }
@@ -38,6 +40,10 @@
     cursor: pointer;
     background-color: rgb(181, 202, 117);
     border:2px solid black;
+}
+
+.HeroLeft button:hover {
+    color: blue;
 }
 
 
