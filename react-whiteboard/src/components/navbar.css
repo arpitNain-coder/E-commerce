@@ -2,18 +2,16 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 60px;
-    border:2px solid black;
-    background-color: burlywood;
+    padding: 5px 40px;
+    background-color: white;
 }
 
 nav div {
     display: flex;
-    gap: 120px;
+    gap: 80px;
     padding: 10px;
     border-radius: 8px;
-    background-color: rgb(181, 202, 117);
-    border:2px solid black;
+    background-color: #dee8c4;
 }
 
 nav a {
@@ -24,15 +22,14 @@ nav a {
 }
 
 nav a:hover {
-    color: blue;
+    color: #86b410;
 }
 
 nav h2 {
     cursor: pointer;
-    font-weight: 900;
-    padding: 10px;
+    font-weight: 750;
+    padding: 5px;
     margin-left: 0px;
-    background-color: rgb(181, 202, 117);
+    background-color: #dee8c4;
     border-radius: 8px;
-    border:2px solid black;
 }

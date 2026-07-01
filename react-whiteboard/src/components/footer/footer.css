@@ -1,0 +1,21 @@
+.footer {
+    background-color: #222;
+    color: white;
+    padding: 50px 8% 20px;
+}
+
+.footerTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footerTop ul {
+    list-style: none;
+}
+
+.footerTop ul,
+.footerTop p {
+    padding: 0;
+    margin: 0;
+}

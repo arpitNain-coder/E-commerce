@@ -5,45 +5,45 @@
     min-height: 80vh;
     padding: 0 8%;
     gap: 60px;
-    background-color: rgb(181, 202, 117);
-    border:2px solid black;
+    background-color: #dee8c4;
 }
 
 .HeroLeft {
     flex: 1;
     display: flex;
     flex-direction: column;
-    line-height: 80px;
-    align-items: center;
+    align-items: flex-start;
+    line-height: 5px;
     padding-left: 20px;
-    background-color: burlywood;
+    background-color: #F8F9F5;
     padding: 20px;
     border-radius: 14px;
-    border:2px solid black;
 }
-
+.titlep {
+    color: #B5CA75;
+}
 .HeroLeft h1 {
-    font-size: 25px;
+    font-size: 35px;
     line-height: 1.1;
     margin: 20px 0;
 }
 .HeroLeft p {
     margin: 15px 0;
     font-size: 20px;
-    color: #555;
 }
 .HeroLeft button {
     margin-top: 20px;
+    color: white;
     padding: 15px 35px;
     border-radius: 8px;
     font-size: 18px;
     cursor: pointer;
     background-color: rgb(181, 202, 117);
-    border:2px solid black;
+    border:1px solid #B5CA75;
 }
 
 .HeroLeft button:hover {
-    color: blue;
+    color: black;
 }
 
 

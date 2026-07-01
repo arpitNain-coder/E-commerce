@@ -5,7 +5,7 @@ function Hero() {
     return (
         <section className="Hero">
             <div className="HeroLeft">
-                <p>New Collection</p>
+                <p className="titlep">New Collection</p>
                 <h1>Discover the latest fashion trends.</h1>
                 <p>Premium clothing, accessories</p>
                 <button>Shop Now</button>
